@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.viv-background {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+video{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.overlay{
+	background-color: #29466a;
+	opacity: 0.9;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
